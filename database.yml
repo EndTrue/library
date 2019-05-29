@@ -1,0 +1,38 @@
+---
+:authors:
+- :name: Eric
+  :biography: twentytwo
+- :name: Kartman
+  :biography: eleven
+- !ruby/object:Author
+  name: Test
+  biography: test bio
+- !ruby/object:Author
+  name: Test
+  biography: test bio
+- &1 !ruby/object:Author
+  name: Antony
+  biography: Antony's test bio
+:books:
+- :title: First
+  :author: Pershiu
+- &2 !ruby/object:Book
+  title: Old man and sea
+  author: *1
+:readers:
+- :name: Oleg
+  :email: black@gmail.com
+  :city: Dnipro
+  :street: Dnipryanska
+  :home: 777
+- &3 !ruby/object:Reader
+  name: Lesha
+  email: grisch@asd.ru
+  city: Dnipro
+  street: Malinovskogo
+  house: 777
+:orders:
+- !ruby/object:Order
+  book: *2
+  reader: *3
+  date: 2019-05-29
