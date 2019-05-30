@@ -1,23 +1,14 @@
 class Library
-    def initialize
-        @authors = data_load[:authors]
-        @books = data_load[:books]
-        @readers = data_load[:readers]
-        @orders = data_load[:orders]
-        puts data_load[:authors]
-        
-        anton = Author.new(name: "Antony", biography: "Antony's test bio")
-        @authors << anton
-        oldman = Book.new(title: "Old man and sea", author: anton)
-        @books << oldman
-        chita = Reader.new(name: "Lesha", email: "grisch@asd.ru", city: "Dnipro", street:"Malinovskogo", house: 777)
-        @readers << chita
-        ordernew = Order.new(book: oldman, reader: chita, date: Date.today)
-        @orders ||== []
-        @orders << ordernew
-        puts "========"
-        puts @authors
-        data_save
+    def initialize(authors: [], books: [], readers: [], orders: [])
+        @authors = authors
+        @books = books
+        @readers = readers
+        @orders = orders
+        # data_load
+
+        new_author = Author.new(name: "heming", biography: "biography")
+        new_reader = Reader.new(name: "Oleg", email: "email", city:"city", street:"street", house: 222)
+        new_book = Book.new(title: "Bla bla book", author: new_reader)
     end
 
     def data_save
@@ -32,5 +23,9 @@ class Library
 
     def data_load
         data = YAML.load(File.read("database.yml"))
+        @authors    << data[:authors]
+        @books      << data[:books]
+        @readers    << data[:readers]
+        @orders     << data[:orders]
     end
 end
