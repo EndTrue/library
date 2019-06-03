@@ -1,9 +1,16 @@
-class Book
-    attr_reader :title, :author
+# frozen_string_literal: true
 
-    def initialize(title:, author:)
-        Validator::validate object: author, expected_class: Author
-        @title = title
-        @author = author
-    end
+class Book
+  attr_reader :title, :author
+
+  def initialize(title:, author:)
+    Validator.validate_class object: author, expected_class: Author
+    Validator.validate_is_string argument: title
+    @title = title
+    @author = author
+  end
+
+  def to_s
+    "#{@title} - #{@author}"
+  end
 end

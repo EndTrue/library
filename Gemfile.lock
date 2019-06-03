@@ -1,13 +1,22 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    activesupport (5.2.3)
+      concurrent-ruby (~> 1.0, >= 1.0.2)
+      i18n (>= 0.7, < 2)
+      minitest (~> 5.1)
+      tzinfo (~> 1.1)
     ast (2.4.0)
     colorize (0.8.1)
+    concurrent-ruby (1.1.5)
     fasterer (0.5.1)
       colorize (~> 0.7)
       ruby_parser (>= 3.13.0)
     ffaker (2.11.0)
+    i18n (1.6.0)
+      concurrent-ruby (~> 1.0)
     jaro_winkler (1.5.2)
+    minitest (5.10.3)
     parallel (1.17.0)
     parser (2.6.3.0)
       ast (~> 2.4.0)
@@ -23,12 +32,16 @@ GEM
     ruby_parser (3.13.1)
       sexp_processor (~> 4.9)
     sexp_processor (4.12.0)
+    thread_safe (0.3.6)
+    tzinfo (1.2.5)
+      thread_safe (~> 0.1)
     unicode-display_width (1.6.0)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
+  activesupport
   fasterer
   ffaker
   rubocop
