@@ -1,5 +1,7 @@
+# frozen_string_literal: true
+
 source 'https://rubygems.org'
 
-gem 'rubocop'
 gem 'fasterer'
 gem 'ffaker'
+gem 'rubocop'
