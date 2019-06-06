@@ -6,10 +6,10 @@ require 'autoload'
 library = Library.new
 
 at_exit do
-  library.save
+  library.data_save
 end
 
-# library.save
-# library.data_fake
+# library.data_load
+# library.data_save
 # library.generate_data
 # library.show_statistic

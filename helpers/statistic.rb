@@ -38,4 +38,4 @@ module Statistic
 
     quantity == 1 ? result.first : result
   end
-  end
+end

@@ -6,12 +6,6 @@ class WrongClassError < StandardError
   end
 end
 
-class NotStringError < StandardError
-  def initialize
-    super('Argument is not a string')
-  end
-end
-
 class EmptyStringError < StandardError
   def initialize
     super('Argument is empty string')

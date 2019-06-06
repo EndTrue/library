@@ -4,6 +4,7 @@ $LOAD_PATH << File.join(__dir__, '../entities')
 
 require 'yaml'
 require 'date'
+require 'psych'
 require 'active_support'
 require 'active_support/core_ext'
 require 'ffaker'

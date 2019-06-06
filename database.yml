@@ -1,196 +1,206 @@
 ---
 :authors:
-- !ruby/object:Author
-  name: Leora Schmeler
-  biography: ''
-- &7 !ruby/object:Author
-  name: Maybell Klein
-  biography: ''
-- &6 !ruby/object:Author
-  name: Kathe Kuvalis
-  biography: ''
-- !ruby/object:Author
-  name: Gladis Simonis
-  biography: ''
-- &3 !ruby/object:Author
-  name: Zada Jaskolski
-  biography: ''
-- &8 !ruby/object:Author
-  name: Star Bruen
-  biography: ''
-- &1 !ruby/object:Author
-  name: Shaina Donnelly
-  biography: ''
-- &5 !ruby/object:Author
-  name: Maya Cormier
-  biography: ''
 - &4 !ruby/object:Author
-  name: Edmundo Kulas
+  name: Verona Johnson
+  biography: ''
+- &9 !ruby/object:Author
+  name: Annmarie Shields
+  biography: ''
+- !ruby/object:Author
+  name: Laverna Miller
   biography: ''
 - &2 !ruby/object:Author
-  name: Louella Rodriguez
+  name: Lurline Turner
+  biography: ''
+- !ruby/object:Author
+  name: Cristina Morar
+  biography: ''
+- &8 !ruby/object:Author
+  name: Krystin Bernhard
+  biography: ''
+- !ruby/object:Author
+  name: Gussie Rowe
+  biography: ''
+- !ruby/object:Author
+  name: Fae Brakus
+  biography: ''
+- &5 !ruby/object:Author
+  name: Nickolas Stroman
+  biography: ''
+- &3 !ruby/object:Author
+  name: Audria Mohr
+  biography: ''
+- &7 !ruby/object:Author
+  name: Liberty Stokes
+  biography: ''
+- &1 !ruby/object:Author
+  name: Kesha Treutel
+  biography: ''
+- &6 !ruby/object:Author
+  name: Antonio Lesch
+  biography: ''
+- &11 !ruby/object:Author
+  name: Jerrie Hirthe
+  biography: ''
+- !ruby/object:Author
+  name: Vivian Bednar
+  biography: ''
+- &10 !ruby/object:Author
+  name: Christiane Price
   biography: ''
 :books:
-- &17 !ruby/object:Book
-  title: The Blue Wolves
-  author: *1
-- &9 !ruby/object:Book
-  title: Champagne Women
-  author: *2
-- !ruby/object:Book
-  title: Season of the Killer Demon
-  author: *1
 - &15 !ruby/object:Book
-  title: Champagne Ninjas
-  author: *3
+  title: Return of the Bloody Clash
+  author: *1
 - &21 !ruby/object:Book
-  title: Journey of the Ultra Thief
-  author: *4
+  title: Flying Hills
+  author: *2
+- &25 !ruby/object:Book
+  title: The Killer Clash
+  author: *3
+- &12 !ruby/object:Book
+  title: Champagne Diaries
+  author: *3
 - !ruby/object:Book
-  title: Rise of the Ultra Pickpocket
-  author: *5
+  title: Flying Wizard
+  author: *4
 - &13 !ruby/object:Book
-  title: Flying Demon
+  title: Tokyo Pickpocket
+  author: *5
+- &16 !ruby/object:Book
+  title: Planet of the Bloody Beast
+  author: *6
+- &24 !ruby/object:Book
+  title: Green Diaries
+  author: *7
+- &26 !ruby/object:Book
+  title: Time of the Forbidden Hills
   author: *6
 - &22 !ruby/object:Book
-  title: Case of the Missing Danger Demon
-  author: *7
-- &19 !ruby/object:Book
-  title: Case of the Missing Danger Gypsy
-  author: *4
-- &11 !ruby/object:Book
-  title: Legend of Dangerous Monster
-  author: *2
-- !ruby/object:Book
-  title: Fake Brain
-  author: *2
-- !ruby/object:Book
-  title: Green Pickpocket
+  title: Red Brain
   author: *8
-- !ruby/object:Book
-  title: Killer Woman
+- &23 !ruby/object:Book
+  title: The Hungry Men
   author: *2
+- &18 !ruby/object:Book
+  title: Day of the Killer Tentacle
+  author: *9
+- &19 !ruby/object:Book
+  title: Red Monster
+  author: *10
 - !ruby/object:Book
-  title: Curse of the Danger Ninja
+  title: A Fistful of Green Ninja
+  author: *7
+- !ruby/object:Book
+  title: Death Cousins
   author: *4
 - !ruby/object:Book
-  title: Invasion of the Forbidden Gypsy
-  author: *2
-:readers:
-- &16 !ruby/object:Reader
-  name: Hershel Stroman
-  email: erick.rutherford@schmidt.ca
-  city: Суми
-  street: вул. Зелена
-  house: 138
-- &18 !ruby/object:Reader
-  name: Ardis Cassin
-  email: oma.stamm@dickens.biz
-  city: Конотоп
-  street: вул. Рудного
-  house: 27
-- &12 !ruby/object:Reader
-  name: Aurelio Jacobson
-  email: aisha.keebler@prosacco.us
-  city: Мелітополь
-  street: вул. Рудного
-  house: 214
-- &10 !ruby/object:Reader
-  name: Pamula Strosin
-  email: margo_heathcote@gorczany.biz
-  city: Макіївка
-  street: вул. Молодіжна
-  house: 127
-- !ruby/object:Reader
-  name: Gerald Schroeder
-  email: wonda.kuhlman@koepp.biz
-  city: Олександрія
-  street: вул. Винників
-  house: 239
-- &20 !ruby/object:Reader
-  name: Vasiliki Beer
-  email: davida_maggio@krajcikcollier.name
-  city: Бровари
-  street: вул. Коліївщини
-  house: 27
-- !ruby/object:Reader
-  name: Jarrod Monahan
-  email: merilyn.thiel@johns.ca
-  city: Миколаїв
-  street: вул. Староміська
-  house: 31
-- !ruby/object:Reader
-  name: Tyra Donnelly
-  email: alessandra_nicolas@rodriguez.ca
-  city: Київ
-  street: вул. Зелена
-  house: 137
-- !ruby/object:Reader
-  name: Katherina Hermiston
-  email: guadalupe@hane.name
-  city: Лисичанськ
-  street: вул. Рудного
-  house: 144
-- !ruby/object:Reader
-  name: Kia Nicolas
-  email: tiffanie.murazik@thompsonschmitt.us
-  city: Конотоп
-  street: вул. Молодіжна
-  house: 132
-- &23 !ruby/object:Reader
-  name: Frank Doyle
-  email: gwen.carroll@cartwright.biz
-  city: Нікополь
-  street: вул. Зелена
-  house: 40
-- &14 !ruby/object:Reader
-  name: Mao Hane
-  email: dotty@kesslerparker.co.uk
-  city: Умань
-  street: вул. Стрийська
-  house: 38
+  title: Green Beast
+  author: *9
+- &20 !ruby/object:Book
+  title: Rise of the Electric Blow
+  author: *11
+:readers: []
 :orders:
 - !ruby/object:Order
-  book: *9
-  reader: *10
-  date: 2019-06-03
-- !ruby/object:Order
-  book: *11
-  reader: *12
-  date: 2019-06-03
+  book: *12
+  reader: &14 !ruby/object:Reader
+    name: Hae Hammes
+    email: ora@powlowski.info
+    city: Луганськ
+    street: вул. Молодіжна
+    house: 196
+  date: 2019-06-04
 - !ruby/object:Order
   book: *13
   reader: *14
-  date: 2019-06-03
-- !ruby/object:Order
-  book: *11
-  reader: *10
-  date: 2019-06-03
+  date: 2019-06-04
 - !ruby/object:Order
   book: *15
-  reader: *16
-  date: 2019-06-03
+  reader: &17 !ruby/object:Reader
+    name: Jasmin Altenwerth
+    email: ashely@rohan.name
+    city: Мукачеве
+    street: вул. Вузька
+    house: 135
+  date: 2019-06-04
 - !ruby/object:Order
-  book: *17
-  reader: *18
-  date: 2019-06-03
+  book: *16
+  reader: *17
+  date: 2019-06-04
 - !ruby/object:Order
-  book: *15
-  reader: *16
-  date: 2019-06-03
+  book: *18
+  reader: !ruby/object:Reader
+    name: Rhona Gulgowski
+    email: marcos@hane.co.uk
+    city: Харків
+    street: вул. Ліста
+    house: 216
+  date: 2019-06-04
 - !ruby/object:Order
   book: *19
-  reader: *16
-  date: 2019-06-03
+  reader: !ruby/object:Reader
+    name: Donnie Kuhlman
+    email: arnoldo.gleason@adamsdach.info
+    city: Миколаїв
+    street: вул. Вузька
+    house: 229
+  date: 2019-06-04
 - !ruby/object:Order
-  book: *19
-  reader: *20
-  date: 2019-06-03
+  book: *20
+  reader: !ruby/object:Reader
+    name: Luz Franecki
+    email: phyliss@marvin.co.uk
+    city: Біла Церква
+    street: вул. Стрийська
+    house: 137
+  date: 2019-06-04
 - !ruby/object:Order
   book: *21
-  reader: *10
-  date: 2019-06-03
+  reader: !ruby/object:Reader
+    name: Galen Beatty
+    email: kaylee_ferry@hintzmccullough.biz
+    city: Вінниця
+    street: вул. Рудного
+    house: 77
+  date: 2019-06-04
 - !ruby/object:Order
   book: *22
-  reader: *23
-  date: 2019-06-03
+  reader: &27 !ruby/object:Reader
+    name: Classie Auer
+    email: izetta@wyman.ca
+    city: Павлоград
+    street: вул. Ліста
+    house: 59
+  date: 2019-06-04
+- !ruby/object:Order
+  book: *23
+  reader: !ruby/object:Reader
+    name: Harry Braun
+    email: venice@grady.info
+    city: Суми
+    street: вул. Нижанківського
+    house: 176
+  date: 2019-06-04
+- !ruby/object:Order
+  book: *24
+  reader: !ruby/object:Reader
+    name: Merri Hane
+    email: tamra@lindgren.co.uk
+    city: Івано-Франківськ
+    street: вул. Молодіжна
+    house: 98
+  date: 2019-06-04
+- !ruby/object:Order
+  book: *25
+  reader: !ruby/object:Reader
+    name: Gema Auer
+    email: jayme@marquardt.ca
+    city: Ялта
+    street: вул. Коліївщини
+    house: 227
+  date: 2019-06-04
+- !ruby/object:Order
+  book: *26
+  reader: *27
+  date: 2019-06-04

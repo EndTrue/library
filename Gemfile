@@ -2,7 +2,8 @@
 
 source 'https://rubygems.org'
 
+gem 'activesupport'
 gem 'fasterer'
 gem 'ffaker'
 gem 'rubocop'
-gem 'activesupport'
+

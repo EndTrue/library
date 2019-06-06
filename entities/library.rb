@@ -6,11 +6,14 @@ class Library
 
   attr_reader :authors, :books, :readers, :orders
 
+  DB_PATH = 'database.yml'
+
   def initialize
-    @authors = Array.new
-    @books = Array.new
-    @readers = Array.new
-    @orders = Array.new
+    @authors = []
+    @books = []
+    @readers = []
+    @orders = []
+    data_load
   end
 
   def data_save
@@ -20,14 +23,16 @@ class Library
       readers: @readers,
       orders: @orders
     }
-    File.open('database.yml', 'w') { |file| file.write(data.to_yaml) }
+    File.open(DB_PATH, 'w') { |file| file.write(data.to_yaml) }
   end
 
   def data_load
-    data = YAML.safe_load(File.read('database.yml'))
-    @authors    << data[:authors]
-    @books      << data[:books]
-    @readers    << data[:readers]
-    @orders     << data[:orders]
+    yaml = File.read(DB_PATH)
+    allowable_classes = [Symbol, Author, Book, Reader, Order, Date]
+    data = Psych.safe_load(yaml, allowable_classes, [], true)
+    @authors.concat data[:authors]
+    @books.concat data[:books]
+    @readers.concat data[:readers]
+    @orders.concat data[:orders]
   end
 end
